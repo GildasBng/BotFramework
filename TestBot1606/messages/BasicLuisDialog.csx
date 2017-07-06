@@ -26,7 +26,7 @@ public class BasicLuisDialog : LuisDialog<object>
     {
             
        var reply = context.MakeMessage();
-        reply.Text = $" Did you said : '{result.Query}' ?";
+        reply.Text = $" Did you said : '{result.Query}' ? 1212354658";
         //reply.Speak = $"Default Intent Reached. You may have said something not handled";
         reply.Speak = $"Default Intent reached";
         
